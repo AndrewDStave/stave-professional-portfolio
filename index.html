@@ -7,41 +7,131 @@
     <link rel="stylesheet" href="/assets/style.css">
     <title>Andrew's Portfolio</title>
 </head>
+
 <body>
     <header>
         <nav>
             <h1>Andrew Stave</h1>
-            <ul>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./resume.html">Resume</a></li>
-            </ul>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
-    <div class="header">
-        <table>
-            <tr>
-                <td style="vertical-align: top;">
-                    <img src="thestave.jpg.png" alt="Portrait Photo" width="300" height="480" style="margin-top: 50px">
-                </td>
-                <td style="vertical-align: top;">
-                    <section id="about">
+
+    <section id="about">
+        <div class="header">
+            <table>
+                <tr>
+                    <td style="vertical-align: top;">
+                        <img src="thestave.jpg.png" alt="Portrait Photo" width="300" height="480" style="margin-top: 50px">
+                    </td>
+                    <td style="vertical-align: top;">
                         <div class="container">
                             <h2>About Me</h2>
                             <div class="double-spaced">
-                            <p>Hello! My name is Andrew Stave. I am a 19 year old aspiring coder who is currently studying in the UC Davis Coding 
-                                Bootcamp. My current aficionados are HTML, CSS, and JavaScript. I am trying to learn Python on my own
-                                time outside of school, and it has been going well. For more information about me, please navigate to the "About"
-                                section.
+                                <p>
+                                    Hello! My name is Andrew Stave. I am a 19-year-old aspiring coder who is currently studying in the UC Davis Coding Bootcamp. My current 
+                                    focus is on HTML, CSS, and JavaScript. I am also learning Python in my free time. For more information about me, please navigate to the 
+                                    "About" section.
+                                </p>
                             </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="hobbies">
+        <div style="text-align: center; margin-top: 40px;">
+            <h1>Hobbies</h1>
+        </div>
+        <table>
+            <tr>
+                <td style="vertical-align: top;">
+                    <img src="billybouncin.gif" style="margin-top: 50px">
+                </td>
+                <td style="vertical-align: top;">
+                    <div class="container">
+                        <div class="double-spaced">
+                            <p>
+                                My favorite hobby of mine is track riding, specifically on sport motorcycles. Sonoma Raceway is my favorite track, and I try to participate 
+                                in as many track days as possible. I ride a 2008 Yamaha R6 that I have modified for racing. Although I may not be the fastest on the track, 
+                                I am constantly practicing to improve my lap times. While the races I participate in are not televised, my goal is to eventually race in 
+                                front of a television audience. I enjoy the adrenaline rush that comes with riding sport bikes. You can see images of my gear and bike attached.
                             </p>
                         </div>
-                    </section>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <div style="text-align: right; margin-top: 50px;">
+                        <img src="IMG_1594.jpg" width="550" height="380">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top; text-align: center;">
+                    <h1>Pets</h1>
+                    <img src="IMG_1691.JPG" width="200" height="350">
+                </td>
+                <td style="vertical-align: top;">
+                    <div class="container">
+                        <div class="double-spaced">
+                            <p>
+                                The cute little bunny in the images is my pet bunny named BunBun. He is a Rex/Lionhead bunny and is about a year and a half old. I adore him and 
+                                he is the cutest thing ever!
+                            </p>
+                        </div>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <div style="text-align: right; margin-right: 150px;">
+                        <img src="IMG_1710.JPG" width="200" height="350">
+                    </div>
                 </td>
             </tr>
         </table>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2 style="font-size: 28px;">Projects</h2>
+            <div class="project">
+                <div class="movement">
+                <img src="project1.jpg" height="200" width="500">
+            </div>
+            </div>
+                <br><br>
+                <h3 style="font-size: 22px;">Calculator</h3>
+                <br>
+                <p style="font-size: 18px;">A working calculator made by myself!</p>
+                <br><br><br><br><br>
+            </div>
+            <div class="project">
+                <div class="movement">
+                <a href="https://andrewdstave.github.io/horiseon-website/">
+                <img src="project2.jpg" height="200" width="500">
+            </div>
+            </a>
+                <br><br>
+                <h3 style="font-size: 22px;">Horiseon Website</h3>
+                <br>
+                <p style="font-size: 18px;">My first project made in my UC Davis Coding Bootcamp! It was a website I made myself. It was very good practice for adding links to my code!</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" style="text-align: center; margin-top: 40px;">
+        <div class="container contact-info">
+            <h1>Contact Info</h1>
+            <br>
+            <h2>Email: <a href="mailto:andrewdstave@gmail.com">andrewdstave@gmail.com</a></h2>
+            <h2>Phone Number: <a href="tel:916-996-1529">916-996-1529</a></h2>
+        </div>
+    </section>
+</section>
 
-    </div>
 </body>
+
 </html>
